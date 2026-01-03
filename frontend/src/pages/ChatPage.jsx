@@ -1,9 +1,9 @@
-import React from "react";
-import { userAuthStore } from "../store/useAuthStore";
+import React from 'react'
 
 const ChatPage = () => {
-  const { authUser, login } = userAuthStore();
-  return <div>ChatPage</div>;
-};
+  return (
+    <div>ChatPage</div>
+  )
+}
 
-export default ChatPage;
+export default ChatPage
