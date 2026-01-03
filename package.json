@@ -1,7 +1,7 @@
 {
   "name": "chatify-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat App with React, Node.js, Socket.io",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/koradiyamilan12/chatify.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Milan Koradiya",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {

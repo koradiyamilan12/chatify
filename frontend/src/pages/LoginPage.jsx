@@ -1,9 +1,9 @@
-import React from "react";
-import { userAuthStore } from "../store/useAuthStore";
+import React from 'react'
 
 const LoginPage = () => {
-  const { authUser, login } = userAuthStore();
-  return <div>LoginPage</div>;
-};
+  return (
+    <div>LoginPage</div>
+  )
+}
 
-export default LoginPage;
+export default LoginPage
